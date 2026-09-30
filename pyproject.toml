@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freq-bounds"
+version = "0.1.0"
+description = "Exact integer bounds on cross-media frequency histograms from aggregate reach and pairwise overlaps"
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["freq_bounds"]
